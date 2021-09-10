@@ -1,0 +1,59 @@
+h2 {
+    color:red;
+    text-align: center;
+}
+.container {
+    border: 1px solid #ccc;
+    width: 50%;
+    margin: auto;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: #d1e6e9;
+}
+img{
+    width: 200px;
+    border-radius: 1em;
+    padding: 0.5em;
+    object-fit: fill;
+}
+.card-desc {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5em;
+}
+h1, h3, h4, p {
+    margin: 0.15em;
+}
+h1, h3, h4 {
+    text-align: center;
+}
+
+.offer {
+    background-color: green;
+    color: #fff;
+}
+ol li {
+    list-style-type: disclosure-closed;
+}
+.timings {
+    border: 1px solid #ccc;
+    background-color: #84ec8c;
+    border-radius: 4px;
+}
+.timings li {
+    list-style-position: inside;
+}
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+    .card {
+        display: inline-block;
+    }
+    img {
+        width: 96%;
+        height: 100%;
+    }
+}
